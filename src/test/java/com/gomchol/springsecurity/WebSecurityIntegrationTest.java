@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class WebSecurityConfigIntegrationTest {
+public class WebSecurityIntegrationTest {
 
     @Autowired
     private MockMvc mvc;
@@ -43,5 +43,4 @@ public class WebSecurityConfigIntegrationTest {
                 status().isOk()
         );
     }
-
 }

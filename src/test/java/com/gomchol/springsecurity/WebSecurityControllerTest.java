@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(MainController.class)
-public class WebSecurityConfigUnitTest {
+public class WebSecurityControllerTest {
 
 	@Autowired
 	private MockMvc mvc;
